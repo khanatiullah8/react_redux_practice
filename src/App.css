@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.App > * {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 2px solid;
+}
+
+.App > *:last-child { border-bottom: none; }
+
+span { display: inline-block; }
+li { list-style: none; }
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #008b8b;
+  color: #ddd;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  text-transform: capitalize;
+}
+
+span {
+  padding: 10px;
+  font-size: 22px;
+}
+
+.random-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-title {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+}
